@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 
 namespace FormsApp.ViewModels
 {

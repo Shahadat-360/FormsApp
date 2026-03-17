@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FormsApp.Models
+namespace FormsApp.Domain.Entity
 {
     public class Tag
     {

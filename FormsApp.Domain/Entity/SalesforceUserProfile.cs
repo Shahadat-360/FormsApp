@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace FormsApp.Models
+namespace FormsApp.Domain.Entity
 {
     public class SalesforceUserProfile
     {

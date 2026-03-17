@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 using Microsoft.AspNetCore.Http;
 
 namespace FormsApp.ViewModels

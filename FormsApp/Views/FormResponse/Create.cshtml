@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Fill Out Form";
-    var template = ViewData["Template"] != null ? (FormsApp.Models.FormTemplate)ViewData["Template"] : null;
-    var questions = ViewData["Questions"] != null ? (List<FormsApp.Models.Question>)ViewData["Questions"] : new List<FormsApp.Models.Question>();
+    var template = ViewData["Template"] != null ? (FormsApp.Domain.Entity.FormTemplate)ViewData["Template"] : null;
+    var questions = ViewData["Questions"] != null ? (List<FormsApp.Domain.Entity.Question>)ViewData["Questions"] : new List<FormsApp.Domain.Entity.Question>();
 }
 
 <style>
@@ -75,19 +75,19 @@
                                 
                                 @switch (question.Type)
                                 {
-                                    case FormsApp.Models.QuestionType.SingleLineText:
+                                    case FormsApp.Domain.Entity.QuestionType.SingleLineText:
                                         <input type="text" id="question_@question.Id" name="question_@question.Id" class="form-control" required />
                                         break;
                                         
-                                    case FormsApp.Models.QuestionType.MultiLineText:
+                                    case FormsApp.Domain.Entity.QuestionType.MultiLineText:
                                         <textarea id="question_@question.Id" name="question_@question.Id" class="form-control" rows="3" required></textarea>
                                         break;
                                         
-                                    case FormsApp.Models.QuestionType.Integer:
+                                    case FormsApp.Domain.Entity.QuestionType.Integer:
                                         <input type="number" id="question_@question.Id" name="question_@question.Id" class="form-control" required />
                                         break;
                                         
-                                    case FormsApp.Models.QuestionType.MultipleChoice:
+                                    case FormsApp.Domain.Entity.QuestionType.MultipleChoice:
                                         <div class="small text-muted mb-2">Debug: Has Options: @question.Options.Any()</div>
                                         @if (question.Options.Any())
                                         {
@@ -107,7 +107,7 @@
                                         }
                                         break;
                                         
-                                    case FormsApp.Models.QuestionType.Poll:
+                                    case FormsApp.Domain.Entity.QuestionType.Poll:
                                         @if (question.Options.Any())
                                         {
                                             <div class="form-group poll-question" data-question-id="@question.Id">

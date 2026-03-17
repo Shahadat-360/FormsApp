@@ -1,5 +1,5 @@
 using FormsApp.Data;
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 using FormsApp.Middleware;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

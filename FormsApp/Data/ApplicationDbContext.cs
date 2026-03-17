@@ -1,4 +1,4 @@
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;

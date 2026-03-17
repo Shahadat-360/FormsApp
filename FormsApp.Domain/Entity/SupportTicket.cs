@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace FormsApp.Models
+namespace FormsApp.Domain.Entity
 {
     public class SupportTicket
     {
