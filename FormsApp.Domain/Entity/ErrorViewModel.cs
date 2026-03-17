@@ -1,4 +1,4 @@
-namespace FormsApp.Models
+namespace FormsApp.Domain.Entity
 {
     public class ErrorViewModel
     {

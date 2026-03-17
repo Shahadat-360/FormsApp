@@ -1,0 +1,13 @@
+D:\needToUpdate\FormsApp\FormsApp.Domain\bin\Debug\net9.0\FormsApp.Domain.deps.json
+D:\needToUpdate\FormsApp\FormsApp.Domain\bin\Debug\net9.0\FormsApp.Domain.dll
+D:\needToUpdate\FormsApp\FormsApp.Domain\bin\Debug\net9.0\FormsApp.Domain.pdb
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.csproj.AssemblyReference.cache
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.AssemblyInfoInputs.cache
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.AssemblyInfo.cs
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.csproj.CoreCompileInputs.cache
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.sourcelink.json
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.dll
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\refint\FormsApp.Domain.dll
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\FormsApp.Domain.pdb
+D:\needToUpdate\FormsApp\FormsApp.Domain\obj\Debug\net9.0\ref\FormsApp.Domain.dll

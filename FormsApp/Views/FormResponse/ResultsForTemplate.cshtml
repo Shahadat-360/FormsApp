@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-8">
                 <!-- Display multiple choice and poll question results -->
-                @foreach (var question in Model.Questions.Where(q => q.Type == FormsApp.Models.QuestionType.MultipleChoice || q.Type == FormsApp.Models.QuestionType.Poll))
+                @foreach (var question in Model.Questions.Where(q => q.Type == FormsApp.Domain.Entity.QuestionType.MultipleChoice || q.Type == FormsApp.Domain.Entity.QuestionType.Poll))
                 {
                     <div class="card shadow-sm mb-4">
                         <div class="card-header">
@@ -262,7 +262,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Multiple Choice/Poll Charts
-            @foreach (var question in Model.Questions.Where(q => q.Type == FormsApp.Models.QuestionType.MultipleChoice || q.Type == FormsApp.Models.QuestionType.Poll))
+            @foreach (var question in Model.Questions.Where(q => q.Type == FormsApp.Domain.Entity.QuestionType.MultipleChoice || q.Type == FormsApp.Domain.Entity.QuestionType.Poll))
             {
                 if (question.QuestionResults != null && question.QuestionResults.Any())
                 {

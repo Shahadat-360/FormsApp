@@ -24,4 +24,8 @@
     <Folder Include="wwwroot\images\templates\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FormsApp.Domain\FormsApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

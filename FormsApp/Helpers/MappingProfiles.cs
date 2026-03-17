@@ -1,5 +1,5 @@
 using AutoMapper;
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 using FormsApp.ViewModels;
 using System.Linq;
 

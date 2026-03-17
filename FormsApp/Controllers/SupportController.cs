@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
-using FormsApp.Models;
+using FormsApp.Domain.Entity;
 using FormsApp.Services;
 using FormsApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;

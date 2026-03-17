@@ -71,17 +71,17 @@
                             <div class="ms-2 mt-2">
                                 @switch (answer.QuestionType)
                                 {
-                                    case FormsApp.Models.QuestionType.SingleLineText:
-                                    case FormsApp.Models.QuestionType.MultiLineText:
+                                    case FormsApp.Domain.Entity.QuestionType.SingleLineText:
+                                    case FormsApp.Domain.Entity.QuestionType.MultiLineText:
                                         <p class="mb-0 p-2 bg-light rounded">@answer.Text</p>
                                         break;
                                     
-                                    case FormsApp.Models.QuestionType.Integer:
+                                    case FormsApp.Domain.Entity.QuestionType.Integer:
                                         <p class="mb-0 p-2 bg-light rounded">@answer.Text</p>
                                         break;
                                     
-                                    case FormsApp.Models.QuestionType.MultipleChoice:
-                                    case FormsApp.Models.QuestionType.Poll:
+                                    case FormsApp.Domain.Entity.QuestionType.MultipleChoice:
+                                    case FormsApp.Domain.Entity.QuestionType.Poll:
                                         <p class="mb-0 p-2 bg-light rounded">@answer.Text</p>
                                         break;
                                     

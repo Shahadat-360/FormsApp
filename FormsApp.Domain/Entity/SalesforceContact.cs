@@ -1,6 +1,6 @@
-﻿using System.Text.Json.Serialization;
+using System.Text.Json.Serialization;
 
-namespace FormsApp.Models
+namespace FormsApp.Domain.Entity
 {
     public class SalesforceContact
     {
